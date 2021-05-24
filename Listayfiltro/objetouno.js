@@ -16,14 +16,14 @@ var Autor = /** @class */ (function () {
     Autor.prototype.getEdad = function () {
         return this.edad;
     };
-    Autor.prototype.setNombre = function () {
-        return this.nombre;
+    Autor.prototype.setNombre = function (n) {
+        this.nombre = n;
     };
-    Autor.prototype.setApellido = function () {
-        return this.apellido;
+    Autor.prototype.setApellido = function (a) {
+        return this.apellido = a;
     };
-    Autor.prototype.setEdad = function () {
-        return this.edad;
+    Autor.prototype.setEdad = function (e) {
+        return this.edad = e;
     };
     return Autor;
 }());
@@ -44,17 +44,15 @@ var Nota = /** @class */ (function () {
     Nota.prototype.getCuerpo = function () {
         return this.cuerpo;
     };
-    Nota.prototype.setTitulo = function () {
-        return this.titulo;
+    Nota.prototype.setTitulo = function (t) {
+        return this.titulo = t;
     };
-    Nota.prototype.setPriordad = function () {
-        return this.prioridad;
+    Nota.prototype.setPriordad = function (p) {
+        return this.prioridad = p;
     };
-    Nota.prototype.setCuerpo = function () {
-        return this.cuerpo;
+    Nota.prototype.setCuerpo = function (c) {
+        return this.cuerpo = c;
     };
     return Nota;
 }());
 exports.Nota = Nota;
-
-//module.exports = Persona
