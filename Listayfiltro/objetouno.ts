@@ -23,16 +23,16 @@ export class Autor {
         return this.edad
     }
     
-    setNombre() {
-        return this.nombre
+    setNombre(n: string) {
+        this.nombre = n
     }
 
-    setApellido() {
-        return this.apellido
+    setApellido(a: string) {
+        return this.apellido = a
     }
     
-    setEdad() {
-        return this.edad
+    setEdad(e: number) {
+        return this.edad = e
     }
 }
 
@@ -63,16 +63,16 @@ export class Nota {
         return this.cuerpo
     }
     
-    setTitulo() {
-        return this.titulo
+    setTitulo(t: string) {
+        return this.titulo = t
     }
 
-    setPriordad() {
-        return this.prioridad
+    setPriordad(p: string) {
+        return this.prioridad = p
     } 
     
-    setCuerpo() {
-        return this.cuerpo
+    setCuerpo(c: string) {
+        return this.cuerpo = c
     }
 }
 
